@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="Welcome">Welcome</h1>
+
+    <form>
+        <h2>Temperature conversion:</h2>
+        <input type="number" id="textbox" value="0"><br>
+
+        <input type="radio" id="toferen" name="unit">
+        <label for="toferen">Celsius to fereihnet</label><br>
+
+        <input type="radio" id="tocelsus" name="unit">
+        <label for="tocelsus">Fereihnet to celsius</label>
+        <br>
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form>
+
+    <div id="console"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

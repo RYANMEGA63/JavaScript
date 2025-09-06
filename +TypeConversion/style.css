@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#submit{
+    font-size: 20px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+#submit:hover{
+    background-color:rgb(201, 201, 201);
+}
+#submit:active{
+    scale: 0.95;
+}
