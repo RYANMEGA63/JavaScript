@@ -1,0 +1,49 @@
+body{
+    background-image: url(centralNY.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    height: 97vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#change{
+    margin: 10px;
+    font-size: 45px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    background-color: rgba(240, 248, 255, 0.096);
+    color: aqua;
+    border-radius: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+#change:hover{
+    color: rgba(0, 255, 255, 0.842);
+}
+button:active{
+    scale: 0.95;
+}
+
+
+#clock{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(199, 199, 199, 0.1);
+    backdrop-filter: blur(3px);
+    width: 100%;
+}
