@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+button{
+    font-size: 40px;
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(53, 189, 223);
+    border-radius: 5px;
+    color: white;
+}
+
+button:active{
+    scale: 0.95;
+}

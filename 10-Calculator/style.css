@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    background-image: url("centralNY.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: rgb(94, 94, 94);
+    padding: 10px;
+    border: 10px outset gray;
+    border-radius: 20px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    border: 4px outset;
+    text-align: center;
+}
+h1{
+    justify-self: center;
+    font-size: 60px;
+}
+#display{
+    background: rgb(94, 94, 94);
+    border: none;
+    font-size: 80px;
+    width: 45vh;
+    height: 100px;
+    margin: 20px;
+    margin-left: 15px;
+    align-self: center;
+    color: white;
+}
+#remove{
+    text-align: center;
+    font-size: 45px;
+    padding: 0px;
+}
+.numbs:hover{
+    background-color: rgb(117, 117, 117);
+}
+
+.calcs:hover{
+   background-color: rgb(216, 158, 0);
+}
+
+button:active{
+    scale: 0.95;
+}
+
+.numbs{
+    background-color: rgb(151, 151, 151);
+}
+.calcs{
+    background-color: rgb(255, 187, 1);
+}
