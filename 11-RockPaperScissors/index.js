@@ -1,4 +1,4 @@
-import { consoleLog, consoleError, DisplayObject } from './Module.js';
+
 const choices = ['rock', 'paper', 'scissors'];
 const playerDisplay = document.getElementById('playerDisplay');
 const computerDisplay = document.getElementById('computerDisplay');
