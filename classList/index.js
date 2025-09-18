@@ -1,4 +1,3 @@
-import {consoleLog, consoleError, DisplayObject} from './Module.js';
 
 // classList = Element property in JavaScript used to intercat
 //             with an element's list of classes (CSS classes)
